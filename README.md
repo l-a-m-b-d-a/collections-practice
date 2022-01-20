@@ -1,7 +1,7 @@
 # collections-practice
 Collection Java 
 
-             <p color="green">Iterable<p>                                                Map
+             <p color="green">Iterable</p>                                                Map
                                  |                                                     | 
                                  |                                          ------------------------
     AbstractCollection-------Collection                                     |                      | 
