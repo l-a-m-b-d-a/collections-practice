@@ -1,7 +1,7 @@
 # collections-practice
 Collection Java 
 
-                              Iterable                                                Map
+             <p color="green">Iterable<p>                                                Map
                                  |                                                     | 
                                  |                                          ------------------------
     AbstractCollection-------Collection                                     |                      | 
@@ -13,13 +13,13 @@ Collection Java
       AbstractList-------List    Queue            Set 
            |                       |               | 
            |                       |               |------------------
-   -----------------          ----------      AbstractSet            |
-   |       |       |          |        |               |          SortedSet
-ArrayList Vector  *ASL------Deque  AbstractQueue       |             |
-            |      |                   |             HashSet    NavigableSet
-          Stack  LindedList       PriorityQueue        |             | 
-                                                 LinkedHashSet    TreeSet
+      -------------------      ----------      AbstractSet            |
+      |           |      |     |        |               |          SortedSet
+    ArrayList   Vector  *ASL---Deque  AbstractQueue     |             |
+                   |      |             |            HashSet    NavigableSet
+                 Stack  LindedList  PriorityQueue       |             | 
+                                                   LinkedHashSet    TreeSet
            
- *ASL - <p color="red">AbstractSequentialList<p>   
+ ASL - <p color="red">AbstractSequentialList<p>   
   AbstractQueue - still inherits AbstractCollection
   AbstractSet - still inherits AbstractCollection
