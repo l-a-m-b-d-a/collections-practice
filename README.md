@@ -17,8 +17,8 @@
       |           |      |     |        |               |          SortedSet
     ArrayList   Vector  *ASL---Deque  AbstractQueue     |             |
                    |      |             |            HashSet    NavigableSet
-                 Stack  LindedList  PriorityQueue       |             | 
-                                                   LinkedHashSet    TreeSet
+                 Stack LinkedList  PriorityQueue        |             | 
+                                                   LinkedHashSet   TreeSet
            
 *ASL - AbstractSequentialList
 <p color="orange">
