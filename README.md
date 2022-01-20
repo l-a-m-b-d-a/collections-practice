@@ -20,7 +20,7 @@
                  Stack  LindedList  PriorityQueue       |             | 
                                                    LinkedHashSet    TreeSet
            
-           
+*ASL - AbstractSequentialList
 <p color="orange">
   AbstractQueue - still inherits AbstractCollection
 <p>
