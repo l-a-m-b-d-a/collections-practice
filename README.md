@@ -1,5 +1,5 @@
 # collections-practice
-Collection Java 
+<h1 text-align="center" font-size="16px">Collection Java<h1> 
 
                               Iterable                                                Map
                                  |                                                     | 
@@ -21,16 +21,19 @@ Collection Java
                                                    LinkedHashSet    TreeSet
            
            
-<p color="red">
+<p color="orange">
   AbstractQueue - still inherits AbstractCollection
-  AbstractSet - still inherits AbstractCollection
 <p>
+<p color="orange">
+   AbstractSet - still inherits AbstractCollection
+<p>
+
 <p color="green">Interface<p>
   Iterable, Collection, List, Queue, Deque, Set, SortedSet, NavigableSet, Map, SortedMap, NavigableMap
   
 <p color="gray">Abstract class<p>
   AbstractList, AbstractQueue, AbstractSequentialList, AbstractCollection, AbstractSet, AbstractMap
   
-<p color="red">class<p>
+<p color="red">Class<p>
   ArrayList, Vector, Stack, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet, HashMap, LinkedHashMap, TreeMap, WeekHashMap
 
