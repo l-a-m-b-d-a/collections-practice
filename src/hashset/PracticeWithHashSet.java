@@ -1,6 +1,7 @@
 package hashset;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 // Write a Java program to convert a hash set to a List/ArrayList
 public class PracticeWithHashSet {
@@ -9,9 +10,12 @@ public class PracticeWithHashSet {
         HashSet<Human> humanSet = new HashSet<>();
         humanSet.add(h);
         List<Human> humanList = humanSet.stream().toList();
-
-        for (Human human : humanList) {
-            System.out.println(human);
+        Iterator<Human> iterator = humanSet.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
+//        for (Human human : humanList) {
+//            System.out.println(human);
+//        }
     }
 }
