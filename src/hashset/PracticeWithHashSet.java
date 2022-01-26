@@ -14,6 +14,10 @@ public class PracticeWithHashSet {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+        System.out.println(humanList.isEmpty());
+
+
 //        for (Human human : humanList) {
 //            System.out.println(human);
 //        }
