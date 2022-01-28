@@ -55,6 +55,7 @@ public class PracticeWithTreeSet {
         for (Integer integer : task5) {
             System.out.println(integer);
         }
-
+        // remove number if it higher than 10
+        task5.remove(task5.higher(10));
     }
 }
