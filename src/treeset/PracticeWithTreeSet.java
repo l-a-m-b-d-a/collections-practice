@@ -22,5 +22,11 @@ public class PracticeWithTreeSet {
             System.out.println(it.next());
         }
 
+        // Write a Java program to add all the elements of a specified tree set to another tree set
+        Set<String> set = new TreeSet<>(strings);
+        for (String s : set) {
+            System.out.println(s);
+        }
+
     }
 }
