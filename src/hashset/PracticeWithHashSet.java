@@ -1,5 +1,6 @@
 package hashset;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -16,8 +17,15 @@ public class PracticeWithHashSet {
         }
 
         System.out.println(humanList.isEmpty());
+        Object[] humans = humanSet.toArray();
 
+        for (Object human : humans) {
+            System.out.println((Human)human);
+        }
 
+        humanSet.remove(h);
+
+        System.out.println(humanSet.isEmpty());
 //        for (Human human : humanList) {
 //            System.out.println(human);
 //        }
