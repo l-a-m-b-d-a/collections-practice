@@ -35,5 +35,18 @@ public class PracticeWithTreeSet {
             System.out.println(it.next());
         }
 
+        // Write a Java program to get the first (lowest) key and the last (highest) key currently in a map
+        TreeSet<Integer> task5 = new TreeSet<>();
+        task5.add(11);
+        task5.add(18);
+        task5.add(9);
+        task5.add(3);
+        task5.add(10);
+        task5.add(19);
+        task5.add(17);
+        System.out.println(task5.first());
+        System.out.println(task5.last());
+
+
     }
 }
