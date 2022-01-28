@@ -47,6 +47,14 @@ public class PracticeWithTreeSet {
         System.out.println(task5.first());
         System.out.println(task5.last());
 
+        // Write a Java program to retrieve and remove the first element of a tree set.
+        //
+        // Write a Java program to retrieve and remove the last element of a tree set
+        task5.remove(task5.first());
+        task5.remove(task5.last());
+        for (Integer integer : task5) {
+            System.out.println(integer);
+        }
 
     }
 }
