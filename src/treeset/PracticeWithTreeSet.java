@@ -1,5 +1,6 @@
 package treeset;
 
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -14,7 +15,12 @@ public class PracticeWithTreeSet {
         for (String string : strings) {
             System.out.println(string);
         }
+        //Write a Java program to iterate through all elements in a tree set.
 
+        Iterator<String> it = strings.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
 
     }
 }
