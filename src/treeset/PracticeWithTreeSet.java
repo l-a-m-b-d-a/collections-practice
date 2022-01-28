@@ -1,5 +1,6 @@
 package treeset;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
@@ -26,6 +27,12 @@ public class PracticeWithTreeSet {
         Set<String> set = new TreeSet<>(strings);
         for (String s : set) {
             System.out.println(s);
+        }
+
+        // Reverse output
+        it = ((TreeSet<String>)set).descendingIterator();
+        while(it.hasNext()) {
+            System.out.println(it.next());
         }
 
     }
